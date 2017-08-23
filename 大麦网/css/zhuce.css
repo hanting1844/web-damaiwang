@@ -1,0 +1,229 @@
+.login_header .wrap {
+    padding: 20px 0;
+    background-color: #fff;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.login_header {
+    height: 87px;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+}
+.header_en {
+    display: block;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    margin-top: 3px;
+    float: right;
+}
+.header_en:hover,.m_layer_tab li a:hover{
+	color: #FF3C3C;
+}
+.header_left{
+	float: left;
+}
+.header_left .header_logo {
+    display: block;
+    width: 126px;
+    height: 47px;
+    padding-right: 20px;
+    overflow: hidden;
+    float: left;
+}
+.header_left .header_title {
+    line-height: 47px;
+    font-size: 28px;
+    color: #333;
+    font-family: Microsoft YaHei;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 20px;
+    float: left;
+}
+.reg_tips{
+	display: none;
+}
+.mian_top{
+	width: 1000px;
+	margin: 0 auto;
+}
+.login_box{
+	width: auto;
+	height: 404px;
+	margin: 40px 0;
+	padding: 40px 128px 50px 40px;
+	border: 1px solid #F0F0F0;
+	background: #FFFFFF;
+	position: relative;
+}
+.login_inner,.login_reg{
+	height: 550px !important;
+}
+.login_inner .login_change{
+	width: 830px;
+	position: absolute;
+}
+.login_reg .reg_list li{
+	margin-bottom: 15px;
+	height: 45px;
+	line-height: 45px;
+}
+.login_reg .reg_list li .reg_inner{
+	height: 27px;
+	line-height: 27px;
+	padding: 8px 0;
+	border: 1px solid #E3E3E3;
+	float: left;
+	/*width: 410px;*/
+}
+.reg_list li .reg_inner span{
+	display: block;
+    width: 45px;
+    height: 27px;
+    border-right: 1px solid #e3e3e3;
+    background: url(../images/banner/icon_bg.png) no-repeat 10px 0;
+    float: left;
+    position: absolute;
+}
+.reg_list li .reg_inner .reg_email{
+	background-position: 10px 1px;
+}
+#select{
+	width: 155px;
+	height: 22px;
+	background: #FFFFFF;
+	float: left;
+	margin-left: 50px;
+}
+#select h3{
+	text-decoration: none;
+	display: block;
+	line-height: 27px;
+	height: 27px;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0 28px 0 5px;
+	color: #000000;
+	background: url(../images/tiyu/select_bg.png) no-repeat right center;
+	cursor: pointer;
+}
+#select h3 i{
+	margin-top: 2px;
+}
+#select b{
+	text-align: right;
+	font-weight: 400;
+	margin-right: 5px;
+}
+.text {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+    color: #c3c3c3;
+    outline: none;
+    float: left;
+    overflow: hidden;
+    border-left: 1px solid #e3e3e3;
+    margin-left: 5px;
+}
+.m_china{
+	width: 30px;
+	height: 20px;
+	background: url(../images/tiyu/jack_pic.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #E3E3E3;
+	float: left;
+	margin-right: 5px;
+}
+.login_reg .reg_list li .reg_inner .reg_password{
+	background-position: 10px -29px;
+}
+.text1{
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+    color: #c3c3c3;
+    outline: none;
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+    width: 330px;
+}
+.login_reg .reg_list li .reg_inner .reg_check{
+	background-position: 10px -59px;
+}
+.login_reg .reg_list li .reg_inner .reg_mess{
+	background-position: 10px -89px;
+}
+.text2 {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+    color: #c3c3c3;
+    outline: none;
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.login_btn3{
+	display: block;
+	width: 145px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	border: 1px solid #E3E3E3;
+	float: left;
+	margin-left: 5px;
+}
+.login_btn3:hover{
+	color: #FF3C3C;
+}
+.login_btn{
+	display: block;
+	width: 400px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	background: #F2546B;
+	border: none;
+	cursor: pointer;
+}
+.login_reg .reg_txt{
+	height: 30px;
+	line-height: 30px;
+}
+.checkbox input{
+	width: 14px;
+	height: 14px;
+	vertical-align: -3px;
+}
+.checkbox span{
+	padding-left: 5px;
+}
+.reg_txt a:hover{
+	color: #FF3C3C;
+}
+body{
+	background: #f5f5f5;
+    font-size: 14px;
+    line-height: 20px;
+}

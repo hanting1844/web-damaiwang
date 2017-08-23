@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录--大麦</title>
+		<link rel="icon" href="images/icon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/CSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/center.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+	<body>
+		<div class="login_header">
+			<div class="wrap clearfix">
+				<a class="header_en" href="###">English</a>
+				<div class="header_left">
+					<a class="header_logo" href="###"><img src="images/banner/logo.png"/></a>
+					<h1 class="header_title">欢迎登录</h1>
+				</div>
+			</div>	
+		</div>
+		<div class="main">
+			<div class="login_account layer_box">
+				<div class="account_con">
+					<ul class="m_layer_tab">
+						<li class="first active">
+							<a href="javascript:void(0);">
+								<span class="zhanghu"></span>
+								账户登录
+							</a>
+						</li>
+						<li class="tab_QR">
+							<a href="javascript:void(0);">
+								<span class="erweima"></span>
+								二维码登录
+							</a>
+						</li>
+						<li class="tab_MS">
+							<a href="javascript:void(0);">
+								<span class="duanxin"></span>
+								短信快捷登录
+							</a>
+						</li>
+					</ul>
+					<div class="dlform_1 dlform_block">
+						<form id="dlform" action="" method="">
+							<div class="account_box">
+								<ul class="account_list pt30">
+									<li>
+										<div class="account_inner" style="position:relative; z-index:1114;">
+											<span class="account_email"></span>
+											
+											<label></label>
+											<input type="text" class="text layer_text1" style="width: 260px; font-size: 14px;margin-left: 50px;" name="" id="" value="邮箱/手机号码" onblur="if(this.value==''){this.value='邮箱/手机号码';}" onfocus="if(this.value=='邮箱/手机号码'){this.value=''}"/>	
+										</div>
+									</li>
+								</ul>
+								<div class="acc_div">
+									<ul class="account_list">
+										<li>
+											<div class="account_inner" style="position:relative; z-index:2;">
+												<span class="account_pass"></span>
+												<label></label>
+												<input type="text" class="text layer_text2" style="width: 260px; font-size: 14px;margin-left: 50px;" name="" id="" value="登录密码" onblur="if(this.value==''){this.value='登录密码';}" onfocus="if(this.value=='登录密码'){this.value=''}"/>
+											</div>
+											<p class="account_site"></p>
+										</li>
+									</ul>
+									<input type="button" class="login_btn" name="" id="" value="立即登录" />
+								</div>
+							</div>
+						</form>
+						<p class="account_txt mt5">
+							<a class="wang" href="###">立即注册</a>
+							<a href="###">忘记密码？</a>
+							<label class="checkbox">
+								<input type="checkbox" name="" id="" value="" />
+								<span>下次自动登录</span>
+							</label>
+						</p>
+						<div class="account_share">
+							<span>其他登录：</span>
+							<a class="wx" href="###"></a>
+							<a class="qq" href="###"></a>
+							<a class="sina" href="###"></a>
+							<a class="zhifubao" href="###"></a>
+						</div>
+					</div>
+					<div class=" dlform_block">
+						<h3 class="account_title"><span>扫码登录</span></h1>
+						<div class="code_con">
+							<div class="code_tips">
+								用
+								<a href="javascript:;">大麦手机客户端</a>
+								扫码快速登录 
+							</div>
+							<span class="code_img" style="width: 165px;height: 165px;">
+								<img src="images/index/VerifyShow.jpg"/>
+							</span>
+							<p class="code_change">
+								<a href="javascript:;">刷新一下</a>
+							</p>
+						</div>
+					</div>
+					<div class=" dlform_block">
+						<p class="c2 pt10">验证即登录，未注册将自动创建大麦网账号</p>
+						<div class="account_inner">
+							<span class="account_email"></span>
+							<div id="box">
+								<div id="select">
+									<h3>
+										<i class="m_china"></i>
+										<b class="f1"></b>
+										<b class="fr"></b>
+									</h3>
+									<div class="hide">
+										<p class="active">
+											<i class="m_china"></i>
+											<b class="f1">中国</b>
+											<b class="fr">+86</b>
+										</p>
+										<p>
+											<i class="m_hongkong"></i>
+											<b class="f1">香港</b>
+											<b class="fr">+852</b>
+										</p>
+										<p>
+											<i class="m_macao"></i>
+											<b class="f1">澳门</b>
+											<b class="fr">+853</b>
+										</p>
+										<p>
+											<i class="m_taiwan"></i>
+											<b class="f1">台湾</b>
+											<b class="fr">+886</b>
+										</p>	
+									</div>
+								</div>
+							</div>
+						<input type="text" class="text" name="" id="" value="" placeholder="请输入手机号码" />
+						</div>
+						<div class="layer_inner">
+							<span class="account_pass"></span>
+							<input style="width: 150px;" class="text" type="text" name="" id="" value="动态密码" onblur="if(this.value==''){this.value='动态密码';}" onfocus="if(this.value=='动态密码'){this.value=''}"/>
+							
+						</div>
+						<span class="m_send_code c1">发送动态密码</span>
+						<input type="button" class="login_btn" name="" id="" value="立即登录" />
+					</div>
+					
+				</div>
+				<div class="account_banner">
+					<a href="###">
+						<img src="images/banner/denglu9.jpg" height="400" width="600"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--bottom-->
+		<div id="bottom">
+			<div class="dm1-bottom">
+				<div class="dm1-links">
+					<a href="javascript:void(0);">公司介绍</a>|
+					<a href="javascript:void(0);">品牌识别</a>|
+					<a href="javascript:void(0);">企业荣誉</a>|
+					<a href="javascript:void(0);">联系方式</a>|
+					<a href="javascript:void(0);">隐私声明</a>|
+					<a href="javascript:void(0);">合作招商</a>|
+					<a href="javascript:void(0);">招聘信息</a>|
+					<a href="javascript:void(0);">网站地图</a>|
+					<a href="javascript:void(0);">友情链接</a>
+				</div>
+				<div class="dm1-right">
+					<p>
+						<a href="javascript:void(0);">京ICP证031057号</a>
+						<span>|</span>
+						<a href="javascript:void(0);">京ICP备11043884号</a>
+						<span>|</span>
+						<a href="javascript:void(0);">
+							<img class="jing" src="images/floor/police.png"/>京公网安备11010102000430号
+						</a>
+						<span>|</span>
+						<a href="javascript:void(0);">广播电视节目制作经营许可证 (京)字第02253号</a>
+					</p>
+					<p>
+						<a href="javascript:void(0);">网络文化经营许可证 京网文[2016]3438-413号</a>
+						<span>|</span>
+						<a href="javascript:void(0);">营业性演出许可证 京市演587号</a>
+					</p>
+					<p>
+						北京红马传媒文化发展有限公司 版权所有
+						<a href="javascript:void(0);">大麦网</a> Copyright 2003-2017 All Rights Reserved
+					</p>
+				</div>
+				<div class="dm1-right">
+					<div class="mr101 clearfix">
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/piao.png"/></a>
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/dzyy.png"/></a>
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/siteseal_gd_3_h_l_m.gif"/></a>
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/pci.png"/></a>
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/xin.png"/></a>
+						<a href="javascript:void(0);"><img class="mr10" src="images/floor/chengxin.png"/></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
